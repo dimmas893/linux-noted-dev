@@ -1,0 +1,19 @@
+catatan apache2
+
+#menyalakan apache2
+-sudo systemctl start apache2
+
+#menghentikan apache2
+-sudo systemctl stop apache2
+
+#cek status apache2
+-sudo systemctl status apache2
+
+#restart apache2
+-sudo systemctl restart apache2
+
+#reload apache2
+-sudo systemctl reload apache2
+
+#enable apache2
+-sudo systemctl enable apache2

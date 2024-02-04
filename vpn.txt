@@ -1,0 +1,6 @@
+openvpn
+
+#menyalakan vpn
+-cd /media/anandadimmas/AnandaDimmas/tutorial\ laravel/CV/apk/vpn-sophos/vpn\ 2/
+-sudo su 
+-openvpn dev_infra5\@cdci.cyberdc.net.ovpn

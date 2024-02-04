@@ -1,0 +1,34 @@
+catatan mysql
+
+#install
+-sudo apt install mysql-server
+
+#script keamanan
+-sudo mysql_secure_installation
+
+#mysql status
+-systemctl status mysql.service
+
+#mysql aktif
+-systemctl start mysql.service
+
+#buat user dan kasih izin akses kesemua database
+-CREATE USER 'nama_pengguna'@'localhost' IDENTIFIED BY 'kata_sandi';
+-GRANT ALL PRIVILEGES ON *.* TO 'nama_pengguna'@'localhost';
+-FLUSH PRIVILEGES;
+-exit;
+
+#buat database
+-CREATE DATABASE mydatabase;
+
+#lihat all database
+-SHOW DATABASES;
+
+#menggunakan databses
+-USE nama_database;
+
+#mengecek user yang aktif
+-sudo mysqladmin -p -u namauser version
+
+#cek user dan host
+-SELECT user, host FROM mysql.user;

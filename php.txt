@@ -1,0 +1,10 @@
+catatan php
+#menginstal php
+-sudo apt-get install php7.1 php7.1-fpm
+-sudo apt-get install php7.1-mysql php7.1-mbstring php7.1-xml php7.1-gd php7.1-curl
+
+#select php aktif
+-sudo update-alternatives --config php
+
+#mengubah default php
+-sudo update-alternatives --set php /usr/bin/php7.4

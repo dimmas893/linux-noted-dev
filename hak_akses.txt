@@ -1,0 +1,4 @@
+hak akses
+
+#semua folder dan isinya
+-sudo chmod -R 777 namaProject

@@ -1,0 +1,19 @@
+node js
+
+#install nvm
+-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+#memuat ulang terminal
+-source ~/.bashrc
+
+#tampilkan list node js 
+-nvm ls-remote
+
+#install node js
+-nvm install <versi node js>
+
+#list node js yang sudah terunduh
+-nvm list
+
+#ganti versi node js
+-nvm use <versi node js>
